@@ -13,7 +13,7 @@
 
   background: url('/digital-bank-landing-page/images/bg-intro-desktop.svg')
     no-repeat;
-  background-position: 52rem -26rem;
+  background-position: 60rem -26rem;
 
   @media (max-width: 1150px) {
     background-position: 50% -44vh;
@@ -50,7 +50,12 @@
   &__container {
     @include dimension-settings(100%, 44.7rem);
 
+    position: relative;
+    left: 7rem;
+
     @media (max-width: 1150px) {
+      left: 0;
+
       text-align: center;
 
       order: 2;
